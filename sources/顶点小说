@@ -7,7 +7,7 @@
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
-  "lastUpdateTime": 1716976570429,
+  "lastUpdateTime": 1716981257597,
   "respondTime": 180000,
   "ruleBookInfo": {
     "author": "class.synopsisArea_detail@class.author@text",
@@ -19,7 +19,7 @@
     "tocUrl": "class.recommend@id.AllChapterList2@href"
   },
   "ruleContent": {
-    "content": "id.chaptercontent@tag.p@text",
+    "content": "id.chaptercontent@tag.p@text##(\\|天才一秒记住 言情小说 s23us\\.c o m)|(\\(本章完\\))|(sdldwx\\/xs\\/.+.html)",
     "title": "id.top@class.title@text"
   },
   "ruleExplore": {
@@ -35,6 +35,7 @@
     "author": "class.author.0@text",
     "bookList": "class.slide-item list1@class.hot_sale",
     "bookUrl": "tag.a.0@href",
+    "intro": "tag.p.2@text##\\|(.+)",
     "lastChapter": ".author.1@tag.a@text",
     "name": "class.title@text"
   },
