@@ -1,0 +1,35 @@
+{
+  "bookSourceName": "笔趣阁②",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.22biqu.com/",
+  "bookUrlPattern": "https://www.22biqu.com/biqu.+",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "lastUpdateTime": 1716983688978,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "class.info@class.fix@p.0@text",
+    "coverUrl": "class.detail-box@img@src",
+    "intro": "class.desc xs-hidden@text",
+    "kind": "class.info@class.fix@p.1@text##类.*别：",
+    "lastChapter": "class.info@class.fix@p.4@text##最新章节：",
+    "name": "class.info@class.top@h1@text"
+  },
+  "ruleContent": {
+    "content": "class.content@tag.p@text",
+    "nextContentUrl": "text.下一页@href",
+    "title": "class.reader-main@class.title@text"
+  },
+  "ruleExplore": {},
+  "ruleReview": {},
+  "ruleSearch": {},
+  "ruleToc": {
+    "chapterList": "class.layout layout-col1@class.section-box.1@li",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href",
+    "nextTocUrl": "text.下一页@href"
+  },
+  "weight": 0
+}
