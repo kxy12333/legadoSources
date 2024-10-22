@@ -1,0 +1,52 @@
+{
+  "bookSourceComment": "需要挂梯子",
+  "bookSourceGroup": "自写",
+  "bookSourceName": "69书吧",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://69shuba.cx/index.html",
+  "bookUrlPattern": "https://69shuba.cx/book/.+",
+  "customOrder": -248,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": false,
+  "lastUpdateTime": 1729571371513,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "class.booknav2@p.0@text",
+    "coverUrl": "class.bookimg2@img@src\n@js:\nresult=\"https://69shuba.cx\"+result;",
+    "intro": "class.jianjie-popup-content jianjiebox@class.content@html",
+    "kind": "class.booknav2@p.1@text",
+    "lastChapter": "",
+    "name": "class.booknav2@h1.0@text",
+    "tocUrl": "class.btn more-btn@href",
+    "wordCount": "class.booknav2@p.2@text"
+  },
+  "ruleContent": {
+    "content": "class.txtnav@html",
+    "nextContentUrl": "",
+    "replaceRegex": "##\\(本章完\\)|br|\\/>|(\\d{4}-\\d{2}-\\d{2})",
+    "title": ""
+  },
+  "ruleExplore": {},
+  "ruleReview": {},
+  "ruleSearch": {
+    "author": "class.newnav@class.labelbox@label.0@text",
+    "bookList": "class.newbox@li",
+    "bookUrl": "a.0@href",
+    "checkKeyWord": "我的",
+    "coverUrl": "a.0@href\n@js:\nvar id = result.match(/\\/(\\d+)\\.htm$/)[1];\r\nvar iid = parseInt(id/1000);\r\nresult = 'https://69shuba.cx/fengmian/'+iid+'/'+id+'/'+id+'s.jpg';",
+    "intro": "class.newnav@class.ellipsis_2@text",
+    "kind": "class.newnav@class.labelbox@label.1@text",
+    "lastChapter": "class.newnav@class.zxzj@p@text##最近章节",
+    "name": "class.newnav@h3.0@a.1@text"
+  },
+  "ruleToc": {
+    "chapterList": "class.catalog.1@ul@li[-1:0]",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href",
+    "nextTocUrl": "",
+    "updateTime": ""
+  },
+  "searchUrl": "https://69shuba.cx/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
+  "weight": 0
+}
