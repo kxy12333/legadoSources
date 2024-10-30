@@ -1,28 +1,28 @@
 [{
   "bookSourceComment": "需要挂梯子",
-  "bookSourceGroup": "自写",
-  "bookSourceName": "69书吧",
+  "bookSourceGroup": "精品",
+  "bookSourceName": "69书吧①",
   "bookSourceType": 0,
   "bookSourceUrl": "https://69shuba.cx/index.html",
   "bookUrlPattern": "https://69shuba.cx/book/.+",
-  "customOrder": -248,
+  "customOrder": 0,
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": false,
-  "lastUpdateTime": 1729571371513,
+  "lastUpdateTime": 1730302324136,
   "respondTime": 180000,
   "ruleBookInfo": {
     "author": "class.booknav2@p.0@text",
     "coverUrl": "class.bookimg2@img@src\n@js:\nresult=\"https://69shuba.cx\"+result;",
     "intro": "class.jianjie-popup-content jianjiebox@class.content@html",
     "kind": "class.booknav2@p.1@text",
-    "lastChapter": "",
+    "lastChapter": "class.qustime@li.0@a@span@text",
     "name": "class.booknav2@h1.0@text",
     "tocUrl": "class.btn more-btn@href",
     "wordCount": "class.booknav2@p.2@text"
   },
   "ruleContent": {
-    "content": "class.txtnav@html",
+    "content": ".txtnav *:not(.hide720):not(span):not(script)@html",
     "nextContentUrl": "",
     "replaceRegex": "##\\(本章完\\)|br|\\/>|(\\d{4}-\\d{2}-\\d{2})",
     "title": ""
@@ -49,44 +49,114 @@
   },
   "searchUrl": "https://69shuba.cx/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
   "weight": 0
-},{
-  "bookSourceName": "笔趣阁①",
+},
+{
+  "bookSourceComment": "需要挂梯子",
+  "bookSourceGroup": "精品",
+  "bookSourceName": "69书吧②",
   "bookSourceType": 0,
-  "bookSourceUrl": "http://www.bqgege.com",
-  "bookUrlPattern": "http://www.bqgege.com/book/.+",
+  "bookSourceUrl": "https://69shux.co/",
+  "bookUrlPattern": "https://69shux.co/book/.+",
   "customOrder": 0,
   "enabled": true,
   "enabledCookieJar": true,
-  "enabledExplore": true,
-  "lastUpdateTime": 1716997502511,
+  "enabledExplore": false,
+  "lastUpdateTime": 1730302739478,
   "respondTime": 180000,
   "ruleBookInfo": {
-    "author": "class.infos flex-3@h1@small@text",
-    "coverUrl": "class.cover-3d@img@src",
-    "intro": "class.infos flex-3@h3@text",
-    "kind": "class.w flex breadcrumb@li.2@text",
-    "name": "class.infos flex-3@h1@text",
-    "tocUrl": "class.nav-link tab-nav-link chapter-order-by active@href",
-    "wordCount": "class.infos flex-3@class.tags.2@span.2@text"
+    "author": "class.booknav2@p.0@text",
+    "coverUrl": "class.bookimg2@img@src\n@js:\nresult=\"https://69shuba.cx\"+result;",
+    "intro": "class.jianjie-popup-content jianjiebox@class.content@html",
+    "kind": "class.booknav2@p.1@text",
+    "lastChapter": "class.qustime@li.0@a@span@text",
+    "name": "class.booknav2@h1.0@text",
+    "tocUrl": "class.btn more-btn@href",
+    "wordCount": "class.booknav2@p.2@text"
   },
   "ruleContent": {
-    "content": "class.content bg-color page_toolbar_control@tag.p@text##本章内容未完，请点击下方的分页序号查看更多内容。",
-    "nextContentUrl": "class.page@tag.a[-2:0]@href",
-    "title": "class.content bg-color page_toolbar_control@h1"
+    "content": ".txtnav *:not(.hide720):not(span):not(script)@html",
+    "nextContentUrl": "",
+    "replaceRegex": "##\\(本章完\\)|br|\\/>|(\\d{4}-\\d{2}-\\d{2})",
+    "title": ""
   },
   "ruleExplore": {},
   "ruleReview": {},
-  "ruleSearch": {},
-  "ruleToc": {
-    "chapterList": "class.tab-cont-chapter tab-cont _blank@li",
-    "chapterName": "tag.a@text##免费",
-    "chapterUrl": "tag.a@href"
+  "ruleSearch": {
+    "author": "class.newnav@class.labelbox@label.0@text",
+    "bookList": "class.newbox@li",
+    "bookUrl": "a.0@href",
+    "checkKeyWord": "我的",
+    "coverUrl": "a.0@href\n@js:\nvar id = result.match(/\\/(\\d+)\\.htm$/)[1];\r\nvar iid = parseInt(id/1000);\r\nresult = 'https://69shuba.cx/fengmian/'+iid+'/'+id+'/'+id+'s.jpg';",
+    "intro": "class.newnav@class.ellipsis_2@text",
+    "kind": "class.newnav@class.labelbox@label.1@text",
+    "lastChapter": "class.newnav@class.zxzj@p@text##最近章节",
+    "name": "class.newnav@h3.0@a.1@text"
   },
-  "searchUrl": "http://www.bqgege.com/search/?q={{key}}&_=1716977115577",
+  "ruleToc": {
+    "chapterList": "class.catalog.1@ul@li[-1:0]",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href",
+    "nextTocUrl": "",
+    "updateTime": ""
+  },
+  "searchUrl": "https://69shuba.cx/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
   "weight": 0
-}
-,{
-  "bookSourceComment": "无法搜索",
+},
+{
+  "bookSourceComment": "需要挂梯子",
+  "bookSourceGroup": "精品",
+  "bookSourceName": "69书吧③",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.69hsw.com/",
+  "bookUrlPattern": "https://www.69hsw.com/\\d+/.+",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": false,
+  "lastUpdateTime": 1730304629619,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "id.info@p.0@text##作者：",
+    "coverUrl": "id.fmimg@img@data-original",
+    "intro": "id.intro@text",
+    "kind": "class.con_top@a.1@text",
+    "lastChapter": "id.info@p.2@a@text",
+    "name": "id.info@h1@text",
+    "tocUrl": "",
+    "wordCount": ""
+  },
+  "ruleContent": {
+    "content": "id.booktxt@html",
+    "nextContentUrl": "text.下一页@href",
+    "replaceRegex": "##本章未完，点击下一页继续阅读。",
+    "title": ""
+  },
+  "ruleExplore": {},
+  "ruleReview": {},
+  "ruleSearch": {
+    "author": "class.newnav@class.labelbox@label.0@text",
+    "bookList": "class.newbox@li",
+    "bookUrl": "a.0@href",
+    "checkKeyWord": "我的",
+    "coverUrl": "a.0@href\n@js:\nvar id = result.match(/\\/(\\d+)\\.htm$/)[1];\r\nvar iid = parseInt(id/1000);\r\nresult = 'https://69shuba.cx/fengmian/'+iid+'/'+id+'/'+id+'s.jpg';",
+    "intro": "class.newnav@class.ellipsis_2@text",
+    "kind": "class.newnav@class.labelbox@label.1@text",
+    "lastChapter": "class.newnav@class.zxzj@p@text##最近章节",
+    "name": "class.newnav@h3.0@a.1@text"
+  },
+  "ruleToc": {
+    "chapterList": "id.list@a[8:-1]",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href",
+    "nextTocUrl": "",
+    "updateTime": ""
+  },
+  "searchUrl": "https://69shuba.cx/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
+  "weight": 0
+},
+{
+  "bookSourceComment": "",
+  "bookSourceGroup": "普通",
   "bookSourceName": "笔趣阁②",
   "bookSourceType": 0,
   "bookSourceUrl": "https://www.22biqu.com/",
@@ -95,7 +165,7 @@
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
-  "lastUpdateTime": 1716983688978,
+  "lastUpdateTime": 1730299007222,
   "respondTime": 180000,
   "ruleBookInfo": {
     "author": "class.info@class.fix@p.0@text",
@@ -112,62 +182,21 @@
   },
   "ruleExplore": {},
   "ruleReview": {},
-  "ruleSearch": {},
+  "ruleSearch": {
+    "author": "class.s4@text",
+    "bookList": "class.txt-list txt-list-row5.0@li[1,-1]",
+    "bookUrl": "class.s2@a@href",
+    "checkKeyWord": "我的",
+    "kind": "class.s1@text",
+    "lastChapter": "class.s3@text",
+    "name": "class.s2@text"
+  },
   "ruleToc": {
     "chapterList": "class.layout layout-col1@class.section-box.1@li",
     "chapterName": "tag.a@text",
     "chapterUrl": "tag.a@href",
     "nextTocUrl": "text.下一页@href"
   },
+  "searchUrl": "https://www.22biqu.com/ss/,{\n\t\"charset\": \"UTF-8\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
   "weight": 0
-}
-,{
-  "bookSourceName": "顶点小说",
-  "bookSourceType": 0,
-  "bookSourceUrl": "https://m.s23us.com",
-  "bookUrlPattern": "https://m.s23us.com/\\d*/[a-zA-Z]*\\.html",
-  "customOrder": 0,
-  "enabled": true,
-  "enabledCookieJar": true,
-  "enabledExplore": true,
-  "lastUpdateTime": 1716981257597,
-  "respondTime": 180000,
-  "ruleBookInfo": {
-    "author": "class.synopsisArea_detail@class.author@text",
-    "coverUrl": "class.synopsisArea_detail@img@src",
-    "intro": "class.review shrink@text",
-    "kind": "class.synopsisArea_detail@class.sort@text##类别：",
-    "lastChapter": "class.synopsisArea_detail@tag.a@text",
-    "name": "class.channelHeader channelHeader2@class.title@text",
-    "tocUrl": "class.recommend@id.AllChapterList2@href"
-  },
-  "ruleContent": {
-    "content": "id.chaptercontent@tag.p@text##(\\|天才一秒记住 言情小说 s23us\\.c o m)|(\\(本章完\\))|(sdldwx\\/xs\\/.+.html)",
-    "title": "id.top@class.title@text"
-  },
-  "ruleExplore": {
-    "author": "",
-    "coverUrl": "",
-    "intro": "",
-    "kind": "",
-    "lastChapter": "",
-    "name": ""
-  },
-  "ruleReview": {},
-  "ruleSearch": {
-    "author": "class.author.0@text",
-    "bookList": "class.slide-item list1@class.hot_sale",
-    "bookUrl": "tag.a.0@href",
-    "intro": "tag.p.2@text##\\|(.+)",
-    "lastChapter": ".author.1@tag.a@text",
-    "name": "class.title@text"
-  },
-  "ruleToc": {
-    "chapterList": "id.chapterlist@tag.a",
-    "chapterName": "tag.a@text##↓直达页面底部",
-    "chapterUrl": "tag.a@href"
-  },
-  "searchUrl": "https://m.s23us.com/search/result.html?searchkey={{key}}",
-  "weight": 0
-}
-]
+}]

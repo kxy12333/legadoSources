@@ -1,5 +1,6 @@
 {
-  "bookSourceComment": "无法搜索",
+  "bookSourceComment": "",
+  "bookSourceGroup": "普通",
   "bookSourceName": "笔趣阁②",
   "bookSourceType": 0,
   "bookSourceUrl": "https://www.22biqu.com/",
@@ -8,7 +9,7 @@
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
-  "lastUpdateTime": 1716983688978,
+  "lastUpdateTime": 1730299007222,
   "respondTime": 180000,
   "ruleBookInfo": {
     "author": "class.info@class.fix@p.0@text",
@@ -25,12 +26,21 @@
   },
   "ruleExplore": {},
   "ruleReview": {},
-  "ruleSearch": {},
+  "ruleSearch": {
+    "author": "class.s4@text",
+    "bookList": "class.txt-list txt-list-row5.0@li[1,-1]",
+    "bookUrl": "class.s2@a@href",
+    "checkKeyWord": "我的",
+    "kind": "class.s1@text",
+    "lastChapter": "class.s3@text",
+    "name": "class.s2@text"
+  },
   "ruleToc": {
     "chapterList": "class.layout layout-col1@class.section-box.1@li",
     "chapterName": "tag.a@text",
     "chapterUrl": "tag.a@href",
     "nextTocUrl": "text.下一页@href"
   },
+  "searchUrl": "https://www.22biqu.com/ss/,{\n\t\"charset\": \"UTF-8\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
   "weight": 0
 }

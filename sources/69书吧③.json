@@ -1,0 +1,52 @@
+{
+  "bookSourceComment": "需要挂梯子",
+  "bookSourceGroup": "精品",
+  "bookSourceName": "69书吧③",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.69hsw.com/",
+  "bookUrlPattern": "https://www.69hsw.com/\\d+/.+",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": false,
+  "lastUpdateTime": 1730304629619,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "id.info@p.0@text##作者：",
+    "coverUrl": "id.fmimg@img@data-original",
+    "intro": "id.intro@text",
+    "kind": "class.con_top@a.1@text",
+    "lastChapter": "id.info@p.2@a@text",
+    "name": "id.info@h1@text",
+    "tocUrl": "",
+    "wordCount": ""
+  },
+  "ruleContent": {
+    "content": "id.booktxt@html",
+    "nextContentUrl": "text.下一页@href",
+    "replaceRegex": "##本章未完，点击下一页继续阅读。",
+    "title": ""
+  },
+  "ruleExplore": {},
+  "ruleReview": {},
+  "ruleSearch": {
+    "author": "class.newnav@class.labelbox@label.0@text",
+    "bookList": "class.newbox@li",
+    "bookUrl": "a.0@href",
+    "checkKeyWord": "我的",
+    "coverUrl": "a.0@href\n@js:\nvar id = result.match(/\\/(\\d+)\\.htm$/)[1];\r\nvar iid = parseInt(id/1000);\r\nresult = 'https://69shuba.cx/fengmian/'+iid+'/'+id+'/'+id+'s.jpg';",
+    "intro": "class.newnav@class.ellipsis_2@text",
+    "kind": "class.newnav@class.labelbox@label.1@text",
+    "lastChapter": "class.newnav@class.zxzj@p@text##最近章节",
+    "name": "class.newnav@h3.0@a.1@text"
+  },
+  "ruleToc": {
+    "chapterList": "id.list@a[8:-1]",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href",
+    "nextTocUrl": "",
+    "updateTime": ""
+  },
+  "searchUrl": "https://69shuba.cx/modules/article/search.php,{\n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\"\n\t}",
+  "weight": 0
+}

@@ -9,5 +9,5 @@ for root, dirs, files in os.walk("./sources"):
         f = open(os.path.join(root, file), "r", encoding='utf-8')
         merge.write(f.read())
         if file != files[-1]:
-            merge.write(',')
+            merge.write(',\n')
 merge.write(']')
